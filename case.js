@@ -14,7 +14,7 @@ if (subject.toLowerCase() === book.toLowerCase()) {
 const dring = "water";
 const liquid = "  water";
 
-if (dring.trim(" ") === liquid.trim(" ")) {
+if (dring.trim() === liquid.trim()) {
   console.log("pani pani");
 } else {
   console.log("huhhhu");
