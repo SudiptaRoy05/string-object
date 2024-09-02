@@ -5,6 +5,7 @@ const isPassed = true;
 const subject = ["bangla", "english", "math", "physics"];
 
 // object 
+// non-premitive
 
 const bottle = {
     name: "water",
@@ -17,4 +18,9 @@ const subjects = {
     name: "math",
     teacher: "roy",
     ed: "30feb",
+    chapters:["first", "second", "third"],
+    exam:{
+        name: "Final",
+        marks: 100,
+    }
 }
