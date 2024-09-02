@@ -20,3 +20,5 @@ const firstName = "Adi";
 const lastName = "Roy";
 
 console.log(firstName + " " + lastName);
+console.log(firstName.concat(" ").concat(lastName));
+console.log(lastName.includes("o"));
